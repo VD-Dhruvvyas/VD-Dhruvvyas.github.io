@@ -137,7 +137,7 @@ $(function() {
     }
   });
 
-  bar.animate(0.9);
+  bar.animate(1);
 
   var bar = new ProgressBar.Circle(circleprog3, {
     strokeWidth: 7,
@@ -155,7 +155,7 @@ $(function() {
     }
   });
 
-  bar.animate(0.70);
+  bar.animate(1);
 
   var bar = new ProgressBar.Line(lineprog1, {
     strokeWidth: 1.72,
@@ -168,7 +168,7 @@ $(function() {
       height: '100%'
     },
     step: (state, bar) => {
-      bar.setText(Math.round(bar.value() * 100) + ' %');
+      /bar.setText(Math.round(bar.value() * 100) + ' %');/
     }
   });
 
@@ -185,7 +185,7 @@ $(function() {
       height: '100%'
     },
     step: (state, bar) => {
-      bar.setText(Math.round(bar.value() * 100) + ' %');
+      /*bar.setText(Math.round(bar.value() * 100) + ' %');*/
     }
   });
 
@@ -202,7 +202,7 @@ $(function() {
       height: '100%'
     },
     step: (state, bar) => {
-      bar.setText(Math.round(bar.value() * 100) + ' %');
+      /*bar.setText(Math.round(bar.value() * 100) + ' %');*/
     }
   });
 
@@ -219,7 +219,7 @@ $(function() {
       height: '100%'
     },
     step: (state, bar) => {
-      bar.setText(Math.round(bar.value() * 100) + ' %');
+      /*bar.setText(Math.round(bar.value() * 100) + ' %');*/
     }
   });
 
@@ -236,7 +236,7 @@ $(function() {
       height: '100%'
     },
     step: (state, bar) => {
-      bar.setText(Math.round(bar.value() * 100) + ' %');
+      /*bar.setText(Math.round(bar.value() * 100) + ' %');*/
     }
   });
 
@@ -253,7 +253,7 @@ $(function() {
       height: '100%'
     },
     step: (state, bar) => {
-      bar.setText(Math.round(bar.value() * 100) + ' %');
+      /*bar.setText(Math.round(bar.value() * 100) + ' %');*/  
     }
   });
 
