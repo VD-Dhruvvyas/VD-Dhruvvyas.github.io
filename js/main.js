@@ -114,7 +114,7 @@ $(function() {
       if (value === 0) {
         circle.setText('');
       } else {
-        circle.setText(value);
+        //circle.setText(value);
       }
     }
   });
@@ -132,7 +132,7 @@ $(function() {
       if (value === 0) {
         circle.setText('');
       } else {
-        circle.setText(value);
+        //circle.setText(value);
       }
     }
   });
@@ -150,7 +150,7 @@ $(function() {
       if (value === 0) {
         circle.setText('');
       } else {
-        circle.setText(value);
+        //circle.setText(value);
       }
     }
   });
